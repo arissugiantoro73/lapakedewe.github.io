@@ -1,0 +1,142 @@
+/*Start Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*End Font*/
+
+
+/* Start body */
+body {
+  
+    background-color: antiquewhite;
+    color: black;
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End body */
+/* Start debug*/
+.bg-blue {
+    background-color: blue;
+}
+.bg-green {
+    background-color: rgba(86, 165, 196, 0.692);
+}
+.bg-red {
+    background-color: rgba(148, 48, 48, 0.664);
+}
+.bg-green {
+    background-color: yellowgreen;
+}
+/*End body*/
+/* Start Container*/
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+    
+}  
+/* Start Logo*/
+.logo {
+    display: block;
+    text-align: center;
+}
+
+/* End  Logo*/
+/* Start Hiperlink*/
+    a:link,
+    a:visited {
+        color: #0366d6;
+        text-decoration: none;
+    }
+    a:hover,
+    a:active {
+        color: #0366d6;
+        text-decoration: none;
+        
+    }
+/* End Hiperlink*/
+
+
+
+/* Start Menu Primer*/
+.menu-primer ul {
+background-color: black;
+border-radius: 4px;
+
+}
+.menu-primer li {
+    border-right: 1px solid white;
+    display: inline-block;
+    margin: 0 -4px;
+  
+
+}
+.menu-primer a {
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding : 10px 20px 10px;
+    text-transform: uppercase;
+
+}
+.menu-primer a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: white;
+    color : black;
+    text-decoration: none;
+
+}
+
+/* End Menu Primer*/
+
+/* Start Heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400px;
+    letter-spacing: 1px;
+
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 16px;
+}
+h6 {
+    font-size: 20px;
+}
+
+/* End Heading*/
+/* Start Jumbroton*/
+.jumbroton {
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+
+}
+.jumbroton h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbroton h3{
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+/* End Jumbroton*/
