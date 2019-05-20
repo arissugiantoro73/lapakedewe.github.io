@@ -1,104 +1,86 @@
-/*Start Font*/
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-/*End Font*/
-
-
-/* Start body */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 body {
-  
-    background-color: antiquewhite;
-    color: black;
-    font-family: helvetica, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    background-color: silver;
+    color : black;
+    font-family: 'rokkitt', Times, serif;
+    font-size: 20px;
     line-height: 1.5em;
     margin: 0;
     padding: 0;
 }
-/* End body */
-/* Start debug*/
-.bg-blue {
-    background-color: blue;
+/* End Body */
+/* Start Debug*/
+.bg-aquamarine{
+    background-color: #0e2f44;
 }
-.bg-green {
-    background-color: rgba(86, 165, 196, 0.692);
+.bg-brown{
+    background-color: rgb(134, 131, 131);
 }
-.bg-red {
-    background-color: rgba(148, 48, 48, 0.664);
+/* End Debug*/
+
+/* Start container*/
+.container {
+ margin : 30px 3pc;
+ overflow: auto;
+ width: 90%;
 }
-.bg-green {
-    background-color: yellowgreen;
-}
-/*End body*/
-/* Start Container*/
-.container{
-    margin: 10px auto;
-    overflow: auto;
-    width: 90%;
-    
-}  
-/* Start Logo*/
+/* end container*/
+
+/* start logo */
 .logo {
-    display: block;
     text-align: center;
 }
+/* end logo */
 
-/* End  Logo*/
-/* Start Hiperlink*/
-    a:link,
-    a:visited {
-        color: #0366d6;
-        text-decoration: none;
-    }
-    a:hover,
-    a:active {
-        color: #0366d6;
-        text-decoration: none;
-        
-    }
-/* End Hiperlink*/
-
-
-
-/* Start Menu Primer*/
+/* start menu primer*/
 .menu-primer ul {
-background-color: black;
-border-radius: 4px;
-
+    background-color: black;
+    border-radius: 4px;
+    padding: 1px;
+    box-shadow: 5px;
 }
-.menu-primer li {
-    border-right: 1px solid white;
+.menu-primer li{
+    border-right: 1px solid  white;
     display: inline-block;
-    margin: 0 -4px;
-  
-
 }
-.menu-primer a {
-    color: white;
+.menu-primer a{
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 5px;
+    padding: 10px 30px;
     display: inline-block;
-    font-size: 15px;
-    letter-spacing: 1px;
-    padding : 10px 20px 10px;
     text-transform: uppercase;
-
 }
 .menu-primer a:hover {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
-.menu-primer .active {
-    background-color: white;
-    color : black;
+    background-color: whitesmoke;
+    color: rgb(206, 36, 36);
     text-decoration: none;
 
 }
+.menu-primer .active{
+    background-color: whitesmoke;
+    color: rgb(206, 36, 36);
+    text-decoration: none;
+}
+/* End menu primer*/
 
-/* End Menu Primer*/
+/* start hyperlink*/
+a:link,
+a:visited{ 
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover,
+a:active{
+    color :rgba(22, 2, 2, 0.795)
+}
 
-/* Start Heading*/
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 400px;
+
+/* end hyperlink*/
+
+/* start heading*/
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
     letter-spacing: 1px;
 
 }
@@ -115,28 +97,290 @@ h4 {
     font-size: 16px;
 }
 h5 {
-    font-size: 16px;
+    font-size: 14px;
 }
 h6 {
+    font-size: 13px;
+}
+
+/* end heading*/
+
+
+/* start jumbotron*/
+.jumbotron{
+    background-color: rgba(106, 106, 206, 0.568);
+    border: 1px solid rgba(106, 106, 206, 0.568);
+    border-radius: 15px;
+    padding: 10px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+    text-align: center;
+}
+.jumbotron h3{
     font-size: 20px;
-}
-
-/* End Heading*/
-/* Start Jumbroton*/
-.jumbroton {
-    background-color: #f6f8fa;
-    border: 1px solid #eaecef;
-    border-radius: 4px;
-    padding: 20px 0;
-
-}
-.jumbroton h1{
-    font-size: 32px;
-    padding: 0 20px;
-}
-.jumbroton h3{
-    font-size: 32px;
     padding: 0 20px;
 }
 
-/* End Jumbroton*/
+/* end jumbotron*/
+
+/* start main*/
+.main-home-one{
+    float: left;
+    width: 49.5%; 
+}
+.main-home-two{
+    float: right;
+    width: 49.5%; 
+}
+/* end end*/
+
+/* start main*/
+.main-one{
+    float:left;
+    overflow: auto;
+    width: 70%;
+
+}
+
+/* end main*/
+
+/* start sidebar*/
+.sidebar-two{
+    float:right;
+    overflow: auto;
+    width: 29%;
+
+}
+/* start sidebar*/
+
+
+/* start box*/
+.box-heading{
+    background-color: azure;
+    border: 1px solid rgb(31, 2, 2);
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4{
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi{
+    background-color: aliceblue;
+    border: 1px solid rgba(26, 1, 1, 0.993);
+    border-top:  0;
+    margin: 0;
+    padding: 10px 20px;
+    
+
+}
+
+/* end box*/
+/* start testimonial*/
+.testimonial{
+    border-left: 4px solid black;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* end testimonial*/
+
+.menu-skunder{
+    background-color: 	#969595;
+    border-bottom: rgba(39, 30, 30, 0.726);
+    border-top: 1px solid rgb(22, 18, 18);
+    overflow: auto;
+    padding: 10px 0; 
+}
+.menu-skunder h4{
+    padding: 0;
+}
+.menu-skunder ul{
+    padding: 0;
+}
+.menu-skunder li{
+    list-style: disc;
+
+}
+.menu-skunder li a,
+.menu-skunder p
+{
+    font-size: 15px;
+
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+    margin: 30x;
+
+}
+.menu-sekunder-one{
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three{
+    width: 30%;
+
+}
+.menu-skunder li img{
+    vertical-align: middle;
+}
+
+/*start copyright*/
+.copyright p{
+    font-size: 10px;
+}
+/*end copyright*/
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1545 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  
+  margin: 10px;
+  min-width: 12%;
+  max-width: 12%;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #000000;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.snip1545 *,
+.snip1545 *:before,
+.snip1545 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1545 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1545 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snip1545 figcaption:before,
+.snip1545 figcaption:after,
+.snip1545 figcaption div:before,
+.snip1545 figcaption div:after {
+  opacity: 0;
+}
+
+.snip1545 figcaption:before,
+.snip1545 figcaption:after {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  content: '';
+  background-color: #080808;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.snip1545 figcaption:before {
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.snip1545 figcaption:after {
+  bottom: 0;
+  right: 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.snip1545 figcaption div:before,
+.snip1545 figcaption div:after {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  content: '';
+  background-color: #000000;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.snip1545 figcaption div:before {
+  top: 0;
+  right: 0;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.snip1545 figcaption div:after {
+  bottom: 0;
+  left: 0;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+.snip1545 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1545 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1545:hover img,
+.snip1545.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.snip1545:hover i,
+.snip1545.hover i {
+  opacity: 0.7;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.snip1545:hover figcaption:before,
+.snip1545.hover figcaption:before,
+.snip1545:hover figcaption:after,
+.snip1545.hover figcaption:after,
+.snip1545:hover figcaption div:before,
+.snip1545.hover figcaption div:before,
+.snip1545:hover figcaption div:after,
+.snip1545.hover figcaption div:after {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  opacity: 0.8;
+}
