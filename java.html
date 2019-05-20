@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Start Title-->
+    <title>BELAJAR CODING</title>
+
+    <meta type="description" content="Halaman ini berisi lahitan Structur HTML">
+
+    <!--End Title-->
+
+    <!--Start CSS-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <!--End CSS-->
+
+    <!--Start CSS-->
+
+    <script src="js/function.js"></script>
+    <!--End CSS-->
+</head>
+
+<body>
+    <!--start Logo-->
+    <div class="container bg-aquamarine logo">
+        <a href="index.html" title="Coding Design">
+            <img src="image/logo.jpg" alt="logo coding" width="300" height="200">
+        </a>
+
+    </div>
+    <!--End Logo-->
+
+    <!--start Menu-->
+    <div class="container bg-brown menu-primer">
+        <ul>
+            <li>
+                <a href="index.html" title="Beranda">  Beranda  </a>
+            </li>
+            <li>
+                <a href="c++.html" title="c++">  C++  </a>
+            </li>
+            <li>
+                <a href="java.html" title="JAVA" class="active">  JAVA  </a>
+            </li>
+            <li>
+                <a href="html.html" title="HTML">  HTML  </a>
+            </li>
+            <li>
+                <a href="pyhton.html" title="PYTHON">  PYTHON </a>
+            </li>
+            <li>
+                <a href="php.html" title="PHP">  PHP  </a>
+            </li>
+            <li>
+                <a href="javascrp.html" title="JAVA SCRIPT">   JAVA SCRIPT  </a>
+            </li>
+            <li>
+                <a href="c.html" title="C#"> C# </a>
+            </li>
+            <li>
+                <a href="layanan.html" title="layanan"> LAYANAN </a>
+            </li>
+
+        </ul>
+    </div>
+    <!--End Menu-->
+
+    <div class="container">
+        <figure class="snip1545">
+            <img src="image/jj.jpg" alt="sample42" />
+            <figcaption>
+                <div><i class="ion-ios-home-outline"></i></div>
+            </figcaption>
+            <a href="java.html"></a>
+        </figure>
+
+    </div>
+
+    <!--start Jumbotron-->
+    <div class="container Jumbotron">
+        <h1> Java </h1>
+        <p></p>
+
+        <p align="justify">Java sebagai salah satu bahasa pemrograman yang sudah berumur dari era 1990-an, kian berkembang dan melebarkan dominasinya di berbagai bidang. Salah satu penggunaan terbesar Java adalah dalam pembuatan aplikasi native untuk Android. Selain itu Java pun menjadi pondasi bagi berbagai bahasa pemrograman seperti Kotlin, Scala, Clojure, Groovy, JRuby, Jython, dan lainnya yang memanfaatkan Java Virtual Machine sebagai rumahnya. Java pun akrab dengan dunia saintifik dan akademik. Cukup banyak akademisi di Indonesia yang menggunakan Java sebagai alat bantu untuk menyelesaikan skripsi atau tugas akhir dengan berbagai topik yang didominasi kecerdasan buatan, data mining, enterprise architecture, aplikasi mobile, dan lainnya. Di dunia web development sendiri, Java memiliki berbagai web framework unggulan seperti Spring, Play Framework, Spark, Jakarta Struts, dan Java Server Pages.</p>
+
+        <p align="justify">Anda dapat menggunakan salah satu dari tiga IDE populer seperti NetBeans, Eclipse, atau IntellijIDEA. Java pun memiliki package manager yang mulai populer sejak digunakan di Android Studio yang bernama Gradle. Yah Java yang diciptakan oleh James Gosling ini memang diambil dari sebuah nama pulau dimana James berlibur di Indonesia. Bahkan ada beberapa package Java yang diambil dari nama - nama daerah di Indonesia seperti Jakarta Struts dan Lombok. Ok cukup cuap - cuapnya, mari kita mulai mencoba bahasa pemrograman Java jika Anda belum pernah mencobanya. Hello World Ok, untuk memulai perjalanan kita bersama Java, mau tak mau Anda memang harus menguasai sebuah hal yang tidak praktis saat pertama kali bertemu dengan Java. Tidak seperti bahasa pemrograman lain yang sederhana untuk memulai hello world yang hanya cukup dengan menggunakan function untuk mencetak sebuah string "Hello World!", di Java Anda harus membuat terlebih dahulu sebuah class dan membuat sebuah method yang merupakan method utama dari kode program. Method utama yang akan dieksekusi tersebut dinamakan dengan method main().Method tersebut wajib ada di salah satu class dari kode program yang kita bangun menggunakan Java. Karena Java merupakan salah satu bahasa pemrograman yang berparadigma berorientasi objek, Anda memang harus mulai membiasakan diri dengan istilah - istilah seperti inheritance, attribute, instantiation, dan lainnya. Sekarang kita akan memulainya dengan membuat sebuah file yang bernama HelloWorld.java. Kemudian buat kode berikut di dalam file tersebut: </p>
+        <p> public class HelloWorld { public static void main(String[] args) { System.out.println("Hello World..."); } }
+        </p>
+        <p align="justify">
+            Ada yang perlu Anda perhatikan dari kode diatas: public adalah sebuah keyword di Java yang menandakan bahwa objek, method, atau atribut dapat diakses dari class lain. class adalah sebuah keyword di Java yang digunakan untuk membuat sebuah class static adalah sebuah keyword untuk membuat sebuah method tidak perlu diinstansiasi terlebih dahulu void adalah sebuah keyworduntuk membuat sebuah method tidak me-return nilai apapun alias kosong System.out.println() adalah sebuah method yang telah di-import otomatis untuk digunakan mencetak output di konsol. Nama class dan nama file harus sama Sekarang mari kita jalankan program kecil tersebut dengan menggunakan perintah seperti berikut:
+        </P>
+        <p>$ javac HelloWorld.java $ java HelloWorld Hello World...</p>
+        <h1>Mengenal tipe data dasar di Java</h1>
+        <p align="justify">Berurusan dengan tipe data untuk variabel, Java memiliki sangat banyak tipe data yang dasar dan kompleks. Tipe data yang kompleks dapat Anda temukan seperti ArrayList, HashMap, HashTable, Vector, Array, dan lainnya. Untuk tipe data dasar, Anda dapat menggunakan int, float, double, String, Boolean, dan lainya. Untuk membuat sebuah array dari tipe data dasar, Anda dapat menggunakan tanda "[]" setelah mengetik tipe data yang Akan Anda gunakan.</p>
+        <p>Sekarang mari kita buat sebuah file dengan nama HelloVariabel.java dan buat kode berikut di dalam file tersebut:</p>
+        <p> public class HelloVariable { public static void main(String[] args) {
+            <br> int umur = 10;
+            <br> double gravitasi = 9.8;
+            <br> String nama = "Peter Parker";
+            <br> Boolean bukan_dosen = false;
+            <br> String[] superhero = new String[]{"Ant Man", "Captain America", "Spiderman", "Hulk", "Thor", "Iron Man"};
+            <br> System.out.println("umur: " + umur);
+            <br> System.out.println("gravitasi: " + gravitasi);
+            <br> System.out.println(nama instanceof String);
+            <br> System.out.println("nama: " + nama);
+            <br> System.out.println(superhero instanceof String[]);
+            <br> System.out.println("superhero 1: " + superhero[0]);
+            <br> System.out.println("superhero 2: " + superhero[1]);
+            <br> System.out.println("superhero 3: " + superhero[2]);
+            <br> System.out.println("superhero 4: " + superhero[3]);
+            <br> System.out.println("superhero 5: " + superhero[4]);
+            <br> System.out.println("superhero 6: " + superhero[5]); } } </p>
+        <p align="justify">Ada beberapa hal yang perlu Anda telisik terlebih dahulu. Jangan sampai bagian ini terlewat yah: Untuk mendeklarasikan sebuah variabel, Anda harus menulis terlebih dahulu tipe data variabelnya, kemudian nama variabel, dan wajib menginisialisasi variabel agar tidak error Untuk membuat sebuah array Anda dapat menggunakan tanda "[]" setelah mengetik tipe data, kemudian nama variabel dan Anda harus memanggil keyword new untuk membuat sebuah array Untuk menyambung string Anda dapat menggunakan tanda "+" untuk menyambung string dengan isi variabel Anda dapat menggunakan keyword instanceof untuk menyelidiki tipe data dari variabel Untuk mengakses array Anda dapat langsung mengakses indeksnya dengan angka yang dimulai dari 0</p>
+    </div>
+    <!--End Jumbotron-->
+
+    <div class="container">
+
+        <!--Start materi-->
+
+    </div>
+    <!--End Materi-->
+
+    <!--start Menu Skunder-->
+    <div class="container-full menu-skunder">
+        <div class="container">
+            <div class="menu-sekunder-one">
+                <h4> Belajar Coding</h4>
+
+                <P> Email: <a href="mailto:arissugiantoro73@gmail.com" title="arissugiantoro73@gmail.com">arissugiantoro73@gmail.com</a></P>
+                <P> WA: <a href="tel:085648259815" title="085648259815">085648259815</a></P>
+            </div>
+
+            <div class="menu-sekunder-two">
+                <h4>Menu</h4>
+                <ul>
+                    <li>
+                        <a href="index.html" title="Beranda">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="c++.html" title="C++">C++</a>
+                    </li>
+                    <li>
+                        <a href="java.html" title="JAVA">JAVA</a>
+                    </li>
+                    <li>
+                        <a href="html.html" title="HTML">HTML</a>
+                    </li>
+                    <li>
+                        <a href="pyhton.html" title="PYTHON">PYTHON</a>
+                    </li>
+                    <li>
+                        <a href="PHP.html" title="PHP">PHP</a>
+                    </li>
+                    <li>
+                        <a href="javascrp.html" title="JAVA SCRIPT">JAVA SCRIPT</a>
+                    </li>
+                    <li>
+                        <a href="c.html" title="C#"> C#</a>
+                    </li>
+                    <li>
+                        <a href="layanan.html" title="layanan"> LAYANAN</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="menu-sekunder-three">
+                <h4> Media Sosial</h4>
+                <ul>
+                    <li>
+                        <a href="https://facebook.com/" title="Facebook Belajar Coding ">
+                            <img src="image/logofb.JPG" alt="logo facebook" width="50"> Facebook Tutorial Koding
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/" title="Instagram Belajar Coding ">
+                            <img src="image/ig.jpg" alt="logo instagram" width="50"> Instagram Tutorial Koding
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://whatsapps.com/" title="whatsapps Belajar Coding ">
+                            <img src="image/wa.jpg" alt="logo whatsapps" width="50"> whatsapps Tutorial Koding
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--End Menu Skunder-->
+
+    <!--Start Copyright-->
+    <div class="container Copyright p">
+        <p> Copyright @ Copy 2019 - Belajar Coding</p>
+    </div>
+    <!--End Copyright-->
+</body>
+
+</html>
